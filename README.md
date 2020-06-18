@@ -45,10 +45,6 @@ Na autenticaçāo do usuário, perguntar se ele é Dono de Restaurante ou Client
 - O cancelamento só poderá ser feito com pelo menos 24 horas de antecedência da reserva.
 - Assim que o usuário confirmar ou cancelar uma reserva, um aviso por e-mail é enviado para o dono do restaurante.
 
-<p align="center">
-  <img src="./assets/restaurante.jpg" width=600>
-</p>
-
 ### Conhecimento em:
 
 Qualquer linguagem ou framework front-end.
@@ -59,6 +55,11 @@ Código limpo e comentado sāo requisitos do desafio.
 
 
 ## :pencil2: Telas e Layout
+
+<p align="center">
+  <img src="./assets/restaurant.jpg" width=600>
+</p>
+
 
 - Geral: Cadastro, Login na Plataforma, Minha Conta.
 - Cliente: Listagem dos restaurantes, Página do Restaurante, Página de confirmaçāo da reserva, Listagem das reservas realizadas, Página de Detalhe da Reserva.
