@@ -22,36 +22,17 @@
 
 ## Objetivo:
 
-Criar uma plataforma web que irá consumir a API construída no Projeto-03. Nessa plataforma os Donos de Restaurantes e Clientes poderāo interagir.
+Criar uma aplicação web que irá consumir a API construída no Projeto-03. Essa versão WEB terá apenas a visão do RESTAURANTE, na qual gerenciará os pedidos, pratos, etc.
 
-### Funcionalidades Geral (Dono do Restaurante e Cliente):
-- Permita que um usuário se autentique em sua aplicação utilizando e-mail e senha.
-- Permita que novos usuários se cadastrem em sua aplicação utilizando nome, e-mail e senha.
-- Permita que os usuário atualizem seus dados de cadastro.
-- Realize a validação dos dados de entrada.
+### Requisitos:
+- Responsividade em tablet, notebook e desktop;
+- Validação de Login/Senha;
+- Código limpo e comentado sāo requisitos do desafio.
 
-Na autenticaçāo do usuário, perguntar se ele é Dono de Restaurante ou Cliente. Se for Dono de Restaurante seguir para a Home do Dono de Restaurante, se for cliente, seguir para a Home do Cliente.
-
-### Funcionalidades (Dono do Restaurante):
-- Cadastrar Restaurante (nome, imagem, descriçāo, segmento).
-- Cadastrar Cardápio do Restaurante (nome do prato, valor do prato).
-- Listar todas as reservas do seu restaurante.
-- Clicar na reserva confirmada para ver qual pedido foi feito e outras informacoes. 
-
-### Funcionalidades (Cliente):
-- Listar todos os restaurantes.
-- Escolher um restaurante e fazer o agendamento da reserva. Escolhendo a data, horário e o prato.
-- Listar todos os agendamentos realizados de um único usuário, iniciando pela data mais próxima.
-- O cancelamento só poderá ser feito com pelo menos 24 horas de antecedência da reserva.
-- Assim que o usuário confirmar ou cancelar uma reserva, um aviso por e-mail é enviado para o dono do restaurante.
 
 ### Conhecimento em:
 
 Qualquer linguagem ou framework front-end.
-
-### Importante:
-
-Código limpo e comentado sāo requisitos do desafio.
 
 
 ## :pencil2: Telas e Layout
@@ -61,11 +42,15 @@ Código limpo e comentado sāo requisitos do desafio.
 </p>
 
 
-- Geral: Cadastro, Login na Plataforma, Minha Conta.
-- Cliente: Listagem dos restaurantes, Página do Restaurante, Página de confirmaçāo da reserva, Listagem das reservas realizadas, Página de Detalhe da Reserva.
-- Dono de Restaurante: Cadastro do Restaurante, Cadastro do Cardápio, Listagem das Reservas, Página de Detalhe da Reserva.
+- Login;
+- Dashboard;
+- Account;
+- Orders;
+- Food Items;
+- Post new item;
+- Edit item;
 
-Clique para ver o <a href="https://github.com/Apollo-Group/Projeto-02-Template" target="_blank" rel="noopener noreferrer">
+Clique para ver o <a href="https://www.figma.com/file/AvXI31ym3P18VY0PFVaVuL/Apollo-Food-WEB?node-id=1%3A4956" target="_blank" rel="noopener noreferrer">
 Layout
 </a> no Figma e utilizar os componentes dos Layout.
 
