@@ -38,7 +38,7 @@ Qualquer linguagem ou framework front-end.
 ## :pencil2: Telas e Layout
 
 <p align="center">
-  <img src="./assets/restaurant.jpg" width=600>
+  <img src="./assets/web-apollo-food.png" width=800>
 </p>
 
 
